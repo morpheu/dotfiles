@@ -18,3 +18,4 @@ set backspace=indent,eol,start
 set ruler                           " show line and column number
 syntax on                       " syntax highlighting
 set showcmd                     " show (partial) command in status line
+set clipboard=unnamed           " clipboard copy
