@@ -7,6 +7,8 @@ parse_git_branch() {
 PS1="\[\033[32m\][\$(date +%H:%M)][\u@\h:\w]$\[\033[0m\] "
 PS1="\$(parse_git_branch)$PS1"
 
+[[ -s "/Users/paulo/.rvm/scripts/rvm" ]] && source "/Users/paulo/.rvm/scripts/rvm"
+
 # Make bash check its window size after a process completes
 shopt -s checkwinsize
 # Tell the terminal about the working directory at each prompt.
