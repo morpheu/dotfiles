@@ -79,5 +79,3 @@ nmap <silent> <expr>  zu  FS_FoldAroundTarget('^\s*use\s\+\S.*;',{'context':1})
 
 nmap S  [Shortcut for :s///g]  :%s//g<LEFT><LEFT>
 vmap S                         :s//g<LEFT><LEFT>
-
-
